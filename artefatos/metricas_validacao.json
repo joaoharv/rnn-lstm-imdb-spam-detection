@@ -1,0 +1,42 @@
+{
+  "validacao": {
+    "ingênuo": {
+      "accuracy": 0.5001337971635001,
+      "precision": 0.0,
+      "recall": 0.0,
+      "F1": 0.0,
+      "ROC AUC": 0.5,
+      "log loss": 0.6931471597373898
+    },
+    "regressão logística": {
+      "accuracy": 0.7976986887877977,
+      "precision": 0.842786683107275,
+      "recall": 0.7317987152034261,
+      "F1": 0.783381088825215,
+      "ROC AUC": 0.8567495929873525,
+      "log loss": 0.4705496702699989
+    },
+    "LSTM": {
+      "accuracy": 0.8699491570778699,
+      "precision": 0.9401273885350319,
+      "recall": 0.7901498929336188,
+      "F1": 0.8586387434554974,
+      "ROC AUC": 0.8709480616344895,
+      "log loss": 0.373004287481308
+    }
+  },
+  "recall_por_tipo_e_falso_positivo_validacao": {
+    "LSTM": {
+      "manipulacao_avaliacoes": 0.9678456591639871,
+      "repeticao_excessiva": 0.41091492776886035,
+      "spam_promocional": 0.9919743178170144,
+      "falso positivo (classe 0)": 0.05029427501337614
+    },
+    "regressão logística": {
+      "manipulacao_avaliacoes": 0.9437299035369775,
+      "repeticao_excessiva": 0.2664526484751204,
+      "spam_promocional": 0.985553772070626,
+      "falso positivo (classe 0)": 0.13643659711075443
+    }
+  }
+}

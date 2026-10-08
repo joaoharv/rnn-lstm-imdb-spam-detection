@@ -1,0 +1,9 @@
+# Preserva a entrega acadêmica byte a byte: sem conversão de quebras de linha.
+*.ipynb -text linguist-detectable=false
+*.pdf binary
+*.keras binary
+*.npz binary
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf

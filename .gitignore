@@ -1,0 +1,58 @@
+# --- Python: caches e builds
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter
+.ipynb_checkpoints/
+
+# --- Credenciais e configuração local (nunca versionar)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials*.json
+secrets*.json
+.huggingface/
+.kaggle/
+
+# --- Datasets e caches de dados (o IMDB é baixado pelo notebook e não é redistribuído)
+aclImdb/
+aclImdb_v1.tar.gz
+*.tar.gz
+data/
+datasets/
+.keras/
+
+# --- Gradio, logs e temporários
+.gradio/
+flagged/
+gradio_cached_examples/
+*.log
+tmp/
+temp/
+*.tmp
+
+# --- Marcadores internos dos artefatos
+artefatos/.salvo_*
+
+# --- Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.cursor/
+.claude/

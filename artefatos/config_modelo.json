@@ -1,0 +1,38 @@
+{
+  "tentativa_escolhida": "3. taxa menor (3e-4)",
+  "regra_de_escolha": "menor val_loss",
+  "melhor_epoca": 6,
+  "epocas_executadas": 9,
+  "menor_val_loss": 0.3730042278766632,
+  "val_accuracy_melhor_epoca": 0.8699491620063782,
+  "tempo_treino_s": 268.48862650000956,
+  "hiperparametros": {
+    "dim_embedding": 64,
+    "unidades_lstm": 64,
+    "dropout": 0.5,
+    "taxa_aprendizado": 0.0003,
+    "clipnorm": null,
+    "tamanho_lote": 64,
+    "max_epocas": 15,
+    "paciencia": 3,
+    "limiar": 0.5
+  },
+  "tentativas": {
+    "1. inicial (taxa 1e-3)": {
+      "menor_val_loss": 0.5327416062355042,
+      "melhor_epoca": 1,
+      "tempo_s": 187.81712999998126
+    },
+    "2. gradiente limitado (taxa 1e-3, clipnorm 1,0)": {
+      "menor_val_loss": 0.39020735025405884,
+      "melhor_epoca": 2,
+      "tempo_s": 185.85368409997318
+    },
+    "3. taxa menor (3e-4)": {
+      "menor_val_loss": 0.3730042278766632,
+      "melhor_epoca": 6,
+      "tempo_s": 268.48862650000956
+    }
+  },
+  "semente": 42
+}
